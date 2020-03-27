@@ -3,7 +3,7 @@ from hypothesis import given
 import hypothesis.strategies as st
 import timeit
 
-
+'''
 ints = st.lists(st.integers())
 
 
@@ -18,3 +18,4 @@ def test__quick_sort_cmp1(str1):
     xs = list(str1)
     quick_sort(xs,cmp_reverse)
     assert xs == list(reversed(sorted(str1)))
+'''
